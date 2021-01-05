@@ -13,7 +13,7 @@ var Service *PubSub
 
 func init() {
 	var client *redis.Client
-	client := redis.NewClient(&redis.Options{
+	client = redis.NewClient(&redis.Options{
 		//la db de google 
 		Addr:     "redis-18582.c12281.us-central1-mz.gcp.cloud.rlrcp.com:18582",
 		Password: "WKJeO6VNC7tZX6ae672rbXNJUUXCy3Wm",
